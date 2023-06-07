@@ -110,10 +110,9 @@ Install all dependencies required for this project with:
 
 ### Usage
 
-To run the project have Node.js installed, and execute the following commands to initialize npm, install webpack locally, and install the webpack-cli (the tool used to run webpack on the command line)::
+To run the project have Node.js installed, and execute the following commands to install the webpack-cli (the tool used to run webpack on the command line) if it is not installed:
 
 ```sh
-  $ npm init -y
   $ npm install webpack webpack-cli --save-dev
 ```
 You can also use live reloading with webpack-dev-server using the following commands to install the web server, and run it: 
@@ -125,9 +124,7 @@ You can also use live reloading with webpack-dev-server using the following comm
 
 ### Run tests
 
-To run tests, you can use testing frameworks such as Jest. Install and test with jest using:
-
-- no tests available
+To run tests, you can use testing frameworks such as Jest. To use Jest, ensure you have it installed or install and test with using:
 
 ```sh
   $ npm install --save-dev jest
