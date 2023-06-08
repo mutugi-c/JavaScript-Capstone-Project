@@ -135,7 +135,7 @@ To run tests, you can use testing frameworks such as Jest. To use Jest, ensure y
 
 You can deploy this project using build tools such as webpack, Rollup, Parcel, e.t.c or even deploy using Github pages:
 
-Example: To build for production with webpack, use the folowing commands:
+Example: To build for production with webpack, use the following commands:
 
 - Initialise npm package
 - ensure that webpack is installed
